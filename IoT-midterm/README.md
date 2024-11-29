@@ -36,5 +36,5 @@ Xây dựng một hệ thống giúp giám sát nhiệt độ phòng server theo
 
 ## Kết quả
 
-![Hình 3](./images/db.png "Hình 3")
+![Hình 3](./images/db1.png "Hình 3")
 **Hình 3**
