@@ -38,8 +38,8 @@
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
   "C_Cpp_Runner.includePaths": [
-    "D:/IoT/IoT-midterm/include",
-    "D:/IoT/IoT-midterm/src",
+    "D:/IoT/Iot-midterm/include",
+    "D:/IoT/Iot-midterm/src",
     "C:/Users/letun/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
     "C:/Users/letun/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
     "C:/Users/letun/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
