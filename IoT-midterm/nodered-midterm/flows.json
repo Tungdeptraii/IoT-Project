@@ -402,8 +402,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 360,
-        "y": 400,
+        "x": 340,
+        "y": 360,
         "wires": [
             [
                 "48ed95503e35c6d8",
@@ -436,8 +436,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 560,
-        "y": 440,
+        "x": 580,
+        "y": 400,
         "wires": []
     },
     {
@@ -478,8 +478,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 560,
-        "y": 400,
+        "x": 580,
+        "y": 360,
         "wires": [
             []
         ]
@@ -497,8 +497,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 560,
-        "y": 360,
+        "x": 580,
+        "y": 320,
         "wires": []
     },
     {
@@ -515,7 +515,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 350,
-        "y": 260,
+        "y": 240,
         "wires": [
             [
                 "873ad65154fd0426",
@@ -538,7 +538,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 580,
-        "y": 200,
+        "y": 180,
         "wires": []
     },
     {
@@ -566,7 +566,7 @@
         "diff": false,
         "className": "",
         "x": 580,
-        "y": 280,
+        "y": 260,
         "wires": []
     },
     {
@@ -608,7 +608,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 580,
-        "y": 240,
+        "y": 220,
         "wires": [
             []
         ]
@@ -637,7 +637,7 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 560,
+        "x": 580,
         "y": 560,
         "wires": []
     },
@@ -655,7 +655,7 @@
         "correl": "",
         "expiry": "",
         "broker": "a87558bdd5ddfe56",
-        "x": 580,
+        "x": 600,
         "y": 500,
         "wires": []
     },
@@ -679,7 +679,7 @@
         "max": "100",
         "step": 1,
         "className": "",
-        "x": 360,
+        "x": 340,
         "y": 500,
         "wires": [
             [

@@ -28,3 +28,13 @@ Xây dựng một hệ thống giúp giám sát nhiệt độ phòng server theo
 - PlatformIO/Arduino.
 - Giao thức MQTT: trao đổi dữ liệu qua broker online. 
 - Sử dụng Node-RED, Dashboard để làm bảng theo dõi và điều khiển từ thiết bị cá nhân.
+
+## Giao diện NodeRed
+
+![Hình 2](./images/nr1.png "Hình 2")
+**Hình 2**
+
+## Kết quả
+
+![Hình 3](./images/db.png "Hình 3")
+**Hình 3**
