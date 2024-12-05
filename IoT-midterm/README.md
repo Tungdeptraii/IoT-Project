@@ -95,5 +95,13 @@ Xây dựng một hệ thống giúp giám sát nhiệt độ phòng server theo
 
 - Với phần cứng: Người dùng có thể quan sát trực tiếp nhiệt độ thông qua LCD và khi nhiệt độ vượt ngưỡng, còi sẽ được bật.
 
-![Video 1](./videos/demo1.mp4 "Video 1")
+![Video 1](./videos/demo2.mp4 "Video 1")
 **video 1**
+
+## Hướng phát triển đề tài:
+
+- Tối ưu giao diện người dùng.
+- Thêm các chức năng như: gửi tin nhắn, gửi mail, âm thanh...
+- Thiết kế bộ Sub cầm tay thuận tiện hơn cho việc theo dõi.
+- Nâng cấp thời gian thực cho dữ liệu và xuất file dữ liệu.
+- Thiết kế mạch PCB thay vì dùng Breadboard.
