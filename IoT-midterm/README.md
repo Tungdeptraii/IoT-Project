@@ -80,7 +80,7 @@ Xây dựng một hệ thống giúp giám sát nhiệt độ phòng server theo
 
 - Khi nhiệt độ vượt quá ngưỡng, thông báo sẽ hiển thị:
 
-![Hình 8](./images/msg1.png "Hình 8")
+![Hình 8](./images/msg2.png "Hình 8")
 **Hình 8**
 
 - Điều chỉnh ngưỡng nhiệt độ:
