@@ -278,6 +278,17 @@
         "alpnprotocol": ""
     },
     {
+        "id": "520ff25261222ce0",
+        "type": "ui_group",
+        "name": "Relay",
+        "tab": "4051cd29129c9f55",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "de4c81426d6e9766",
         "type": "mqtt in",
         "z": "3113204bb9c9091d",
@@ -638,7 +649,7 @@
         "diff": false,
         "className": "",
         "x": 580,
-        "y": 560,
+        "y": 520,
         "wires": []
     },
     {
@@ -656,7 +667,7 @@
         "expiry": "",
         "broker": "a87558bdd5ddfe56",
         "x": 600,
-        "y": 500,
+        "y": 460,
         "wires": []
     },
     {
@@ -680,12 +691,82 @@
         "step": 1,
         "className": "",
         "x": 340,
-        "y": 500,
+        "y": 460,
         "wires": [
             [
                 "bc1b50171c7c4792",
                 "8b0b420779ad4716"
             ]
         ]
+    },
+    {
+        "id": "0f8bbab5476cffd7",
+        "type": "debug",
+        "z": "3113204bb9c9091d",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "92c51e11fe677676",
+        "type": "ui_switch",
+        "z": "3113204bb9c9091d",
+        "name": "",
+        "label": "home/relay_control",
+        "tooltip": "",
+        "group": "520ff25261222ce0",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "OFF",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "ON",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 350,
+        "y": 580,
+        "wires": [
+            [
+                "0f8bbab5476cffd7",
+                "7a129bd57dea7408"
+            ]
+        ]
+    },
+    {
+        "id": "7a129bd57dea7408",
+        "type": "mqtt out",
+        "z": "3113204bb9c9091d",
+        "name": "",
+        "topic": "home/relay_control",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a87558bdd5ddfe56",
+        "x": 610,
+        "y": 620,
+        "wires": []
     }
 ]

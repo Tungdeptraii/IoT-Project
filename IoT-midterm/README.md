@@ -1,5 +1,9 @@
 ## Đề tài: Xây dựng hệ thống giám sát nhiệt độ và cảnh báo cho phòng server qua MQTT
 
+## Lời cảm ơn
+
+- Lời đầu tiên cho tôi được gửi lời cảm ơn đến thầy Nguyễn Anh Tuấn, trong suốt thời gian qua thầy đã cung cấp những tài liệu và bài giảng giúp bản thân tôi và các thành viên trong lớp được nâng cao kiến thức về IoT và có thể làm những dự án đơn giản. Bên cạnh đó tôi xin cảm ơn các thầy trong bộ môn Tin học Vật lý đã tạo điều kiện để tôi có thể hoàn thành bài tập này.
+
 ## Đặt vấn đề:
 
 - Phòng server là nơi chứa các thiết bị quan trọng như máy chủ, bộ lưu trữ dữ liệu và thiết bị mạng. Những thiết bị này thường phát sinh nhiệt lớn trong quá trình hoạt động. Nếu nhiệt độ phòng không được kiểm soát, các thiết bị có thể bị hỏng hóc, dẫn đến thiệt hại lớn về dữ liệu và gián đoạn dịch vụ.
@@ -22,6 +26,10 @@ Xây dựng một hệ thống giúp giám sát nhiệt độ phòng server theo
 - Relay: Bật/tắt thiết bị khi cần.
 - Buzzer: Đưa ra tín hiệu cảnh báo.
 - LCD: Hiển thị các thông số.
+
+## Sơ đồ chân nối
+
+
 
 ## Phần mềm và giao thức.
 
