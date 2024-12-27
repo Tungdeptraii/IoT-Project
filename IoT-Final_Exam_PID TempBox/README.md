@@ -70,7 +70,7 @@ PID mang lại sự cân bằng giữa tốc độ, độ ổn định, và đ�
 
 ## Sơ đồ khối dự án
 
-![Hình 6](./images/diagram.png "Hình 6")
+![Hình 6](./Images/diagram.png "Hình 6")
 **Hình 6**
 
 ## Linh kiện sử dụng
@@ -90,31 +90,31 @@ PID mang lại sự cân bằng giữa tốc độ, độ ổn định, và đ�
 - Mạch điều khiển sử dụng nguồn đầu vào 12V.
 - Sơ đồ được vẽ mô tả trên Fritzing, chân D18 là chân xuất tín hiệu PWM vào mạch điều khiển Peltier
 
-![Hình 7](./images/fri.png "Hình 7")
+![Hình 7](./Images/fri.png "Hình 7")
 **Hình 7**
 
 - Mạch hoàn chỉnh:
 
-![Hình 8](./images/dr2.png "Hình 8")
+![Hình 8](./Images/dr2.png "Hình 8")
 **Hình 8**
 
 ## Sơ đồ chân nối
 - Chi tiết sơ đồ chân nối linh kiện được mô tả dưới bảng sau:
 
-![Hình 9](./images/cn1.png "Hình 9")
+![Hình 9](./Images/cn1.png "Hình 9")
 **Hình 9**
 
 ## Hình ảnh thực tế
 - Hình ảnh mô hình:
-![Hình 10](./images/mh.png "Hình 10")
+![Hình 10](./Images/mh.png "Hình 10")
 **Hình 10**
 
 - Mạch điện tử:
-![Hình 11](./images/mh2.png "Hình 11")
+![Hình 11](./Images/mh2.png "Hình 11")
 **Hình 11**
 
 - Cảm biến LM35 được làm lại để đảm bảo ổn định trong quá trình hoạt động:
-![Hình 12](./images/ss.png "Hình 12")
+![Hình 12](./Images/ss.png "Hình 12")
 **Hình 12**
 
 
@@ -134,20 +134,20 @@ PID mang lại sự cân bằng giữa tốc độ, độ ổn định, và đ�
 ## GUI
 - Được viết bằng Python, sử dụng thư viện PyQT5.
 - Giao diện GUI:
-![Hình 13](./images/app1.png "Hình 13")
+![Hình 13](./Images/app1.png "Hình 13")
 **Hình 13**
 
-![Hình 14](./images/apphd.png "Hình 14")
+![Hình 14](./Images/apphd.png "Hình 14")
 **Hình 14**
 
 ## Cấu hình NodeRed
 
-![Hình 15](./images/nr1.png "Hình 15")
+![Hình 15](./Images/nr1.png "Hình 15")
 **Hình 15**
 
 ## Giao diện của Dashboard
 
-![Hình 16](./images/dashboard.png "Hình 16")
+![Hình 16](./Images/dashboard.png "Hình 16")
 **Hình 16**
 
 ## Hoạt động
@@ -179,7 +179,7 @@ PID mang lại sự cân bằng giữa tốc độ, độ ổn định, và đ�
 - Dữ liệu sau khi lưu được xử lý bằng Python.
 - Kết quả thu được như sau:
 
-![Hình 17](./images/pv1.png "Hình 17")
+![Hình 17](./Images/pv1.png "Hình 17")
 **Hình 17**
 
 Nhiệt độ trung bình PV1: 16.1430 °C
