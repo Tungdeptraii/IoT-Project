@@ -58,6 +58,8 @@ Bộ điều khiển PID (Proportional-Integral-Derivative) là một thuật to
 **Hình 3**
 
 - **Công thức tổng quát của bộ điều khiển PID:**
+
+
   ![Hình 4](./Images/pid.png "Hình 4")
 **Hình 4**
 
@@ -70,8 +72,7 @@ Bộ điều khiển PID được sử dụng rộng rãi trong các lĩnh vực
 - Điều khiển nhiệt độ, áp suất, lưu lượng.
 - Điều khiển tốc độ, vị trí trong các hệ thống cơ điện tử.
 - Ứng dụng trong IoT với các hệ thống thông minh.
-
-PID mang lại sự cân bằng giữa tốc độ, độ ổn định, và độ chính xác, là lựa chọn hàng đầu cho nhiều hệ thống điều khiển hiện đại.
+- PID mang lại sự cân bằng giữa tốc độ, độ ổn định, và độ chính xác, là lựa chọn hàng đầu cho nhiều hệ thống điều khiển hiện đại.
 
 ## Sơ đồ khối dự án
 
@@ -91,6 +92,7 @@ PID mang lại sự cân bằng giữa tốc độ, độ ổn định, và đ�
 - LCD: Hiển thị các thông số.
 
 ## Sơ đồ phần cứng
+
 - Đầu vào của hệ được sử dụng nguồn DC.
 - Mạch điều khiển sử dụng nguồn đầu vào 12V.
 - Sơ đồ được vẽ mô tả trên Fritzing, chân D18 là chân xuất tín hiệu PWM vào mạch điều khiển Peltier
