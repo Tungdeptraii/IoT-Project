@@ -112,15 +112,18 @@ Bộ điều khiển PID được sử dụng rộng rãi trong các lĩnh vực
 **Hình 9**
 
 ## Hình ảnh thực tế
+
 - Hình ảnh mô hình:
 ![Hình 10](./Images/mh.png "Hình 10")
 **Hình 10**
 
 - Mạch điện tử:
+
 ![Hình 11](./Images/mh2.png "Hình 11")
 **Hình 11**
 
 - Cảm biến LM35 được làm lại để đảm bảo ổn định trong quá trình hoạt động:
+
 ![Hình 12](./Images/ss.png "Hình 12")
 **Hình 12**
 
@@ -141,6 +144,7 @@ Bộ điều khiển PID được sử dụng rộng rãi trong các lĩnh vực
 ## GUI
 - Được viết bằng Python, sử dụng thư viện PyQT5.
 - Giao diện GUI:
+
 ![Hình 13](./Images/app1.png "Hình 13")
 **Hình 13**
 
@@ -175,6 +179,7 @@ Bộ điều khiển PID được sử dụng rộng rãi trong các lĩnh vực
 
 
 - **Demo video**
+
 [Watch the Demo Video](https://www.youtube.com/watch?v=3isMr8tyQCo)  
 
 ## Kết quả
@@ -193,6 +198,7 @@ Bộ điều khiển PID được sử dụng rộng rãi trong các lĩnh vực
 
 ![Hình 18](./Images/pv2.png "Hình 18")
 **Hình 18**
+
 - Nhiệt độ trung bình PV2: 16.1521 °C
 - Trung vị PV2: 16.0445 °C
 - Độ lệch chuẩn PV2: 0.3991
@@ -213,15 +219,19 @@ Việc sử dụng MQTT giúp hệ thống có thể tích hợp vào các giả
 ## Phụ lục: Một số thí nghiệm truyền thông không dây trên ESP32
 
 - Thiết kế phần cứng:
+
 ![Hình 19](./Images/esp.jpg "Hình 19")
 **Hình 19**
+
 - **Kết nối Bluetooth**
 - Kết nối Bluetooth ESP32 với điện thoại thông qua app `Serial Bluetooth Terminal`
 - Truyền nhận dữ liệu:
+
 ![Hình 20](./Images/blt1.png "Hình 20")
 **Hình 20**
 
 - Kết nối và truyền dữ liệu giữa hai ESP32 thông qua Bluetooth:
+
 ![Hình 21](./Images/blt2.jpg "Hình 21")
 **Hình 6**
 
