@@ -193,7 +193,7 @@ Bộ điều khiển PID được sử dụng rộng rãi trong các lĩnh vực
 ![Hình 17](./Images/pv1.png "Hình 17")
 **Hình 17**
 
-- Tiến hành phân tích dữ liệu sau giây thứ 190.
+- **Tiến hành phân tích dữ liệu sau giây thứ 190.**
 - Nhiệt độ trung bình PV1: 16.0084 °C
 - Trung vị PV1: 16.00 °C
 - Độ lệch chuẩn PV1: 0.1144
@@ -203,7 +203,7 @@ Bộ điều khiển PID được sử dụng rộng rãi trong các lĩnh vực
 ![Hình 18](./Images/pv2.png "Hình 18")
 **Hình 18**
 
-- Tiến hành phân tích dữ liệu sau giây thứ 190.
+- **Tiến hành phân tích dữ liệu sau giây thứ 190.**
 - Nhiệt độ trung bình PV2: 16.0083 °C
 - Trung vị PV2: 16.012 °C
 - Độ lệch chuẩn PV2: 0.1285
@@ -250,7 +250,7 @@ Dự án này mô phỏng kết nối WiFi giữa hai ESP32 sử dụng mô hìn
 ![Hình 22](./Images/cs.png "Hình 22")
 **Hình 22**
 
-  - Kết nối điện thoại với WiFi của ESP32 AP và dùng trình duyệt, truy cập vào địa chỉ 192.168.4.1.
+Kết nối điện thoại với WiFi của ESP32 AP và dùng trình duyệt, truy cập vào địa chỉ 192.168.4.1.
   - Client (điện thoại) gửi yêu cầu HTTP đến Server (ESP32) qua mạng WiFi.
   - Server (ESP32) nhận và xử lý yêu cầu, rồi trả về phản hồi HTTP.
 
