@@ -178,7 +178,7 @@ Bộ điều khiển PID được sử dụng rộng rãi trong các lĩnh vực
 - Giao thức MQTT giúp người dùng theo dõi, quản lý và điều khiển hệ thống từ xa thông qua Node-Red Dashboard. Cùng với đó có thể theo dõi các thông tin như setpoint nhiệt độ, độ ẩm thông qua màn hình của thiết bị ESP32_Subcribe. 
 
 
-- **Demo video**
+## Demo video
 
 [Watch the Demo Video](https://www.youtube.com/watch?v=3isMr8tyQCo)  
 
