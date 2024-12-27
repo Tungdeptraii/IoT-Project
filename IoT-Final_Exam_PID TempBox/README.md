@@ -6,17 +6,17 @@
 
 ## Mục lục
 - Các thư mục của dự án bao gồm:
-- **Thư mục PID TempBox_Pub**
+- **Thư mục PID TempBox_Pub**: [Link](https://github.com/Tungdeptraii/IoT-Project/tree/main/IoT-Final_Exam_PID%20TempBox/PID%20TempBox_Pub)
   - Là thư mục chứa code chính, bao gồm việc tính toán điều khiển nhiệt độ của hệ và truyền dữ liệu qua UART, truyền thông MQTT.
-- **Thư mục PID TempBox_Sub**
+- **Thư mục PID TempBox_Sub**: [Link](https://github.com/Tungdeptraii/IoT-Project/tree/main/IoT-Final_Exam_PID%20TempBox/PID%20TempBox_Sub)
   - Là thư mục chứa code ESP32 có nhiệm vụ nhận thông tin nhiệt độ, độ ẩm được Public và hiển thị lên màn hình LCD, giúp người dùng có thể quan sát và theo dõi hoạt động của hệ.
-- **Thư mục GUI**
+- **Thư mục GUI**: [Link](https://github.com/Tungdeptraii/IoT-Project/tree/main/IoT-Final_Exam_PID%20TempBox/GUI)
   - Thư mục chứa app được viết bằng python, truyền nhận dữ liệu thông qua giao tiếp UART.
-- **Thư mục Wireless**
+- **Thư mục Wireless Connection**: [Link](https://github.com/Tungdeptraii/IoT-Project/tree/main/IoT-Final_Exam_PID%20TempBox/Wireless%20Connection)
   - Gồm hai thí nghiệm kết nối truyền nhận dữ liệu không dây của ESP32 là kết nối WiFi (Client-Server) và kết nối Bluetooth.
-- **Thư mục Data**
+- **Thư mục Data**: [Link](https://github.com/Tungdeptraii/IoT-Project/tree/main/IoT-Final_Exam_PID%20TempBox/Data)
   - Chứa dữ liệu đo nhiệt độ của hệ dưới dạng file .csv.
-- **Thư mục Images**
+- **Thư mục Images**: [Link](https://github.com/Tungdeptraii/IoT-Project/tree/main/IoT-Final_Exam_PID%20TempBox/Images)
   - Chứa ảnh của dự án.
 
 ## Đặt vấn đề:
