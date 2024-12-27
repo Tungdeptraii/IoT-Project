@@ -185,29 +185,35 @@ Bộ điều khiển PID được sử dụng rộng rãi trong các lĩnh vực
 ## Kết quả
 - Hai cảm biến được đo đồng thời, cảm biến 1 (PV1) phục vụ tính toán PID, cảm biến 2 (PV2) khảo sát nhiệt.
 - Nhiệt độ phòng 17.8°C, độ ẩm 61.3%. 
-- Với Setpoint là 16, khảo sát hệ trong môi trường không khí, độ ẩm của hệ 56%.
+- Với Setpoint là 16°C, khảo sát hệ trong môi trường không khí, độ ẩm của hệ 56%.
+- Sau khoảng 190 giây hệ bắt đầu ổn định xung quanh 16°C.
 - Dữ liệu sau khi lưu được xử lý bằng Python.
 - Kết quả thu được như sau:
 
 ![Hình 17](./Images/pv1.png "Hình 17")
 **Hình 17**
 
-- Nhiệt độ trung bình PV1: 16.1430 °C
-- Trung vị PV1: 16.0300 °C
-- Độ lệch chuẩn PV1: 0.3542
+- Tiến hành phân tích dữ liệu sau giây thứ 190.
+- Nhiệt độ trung bình PV1: 16.0084 °C
+- Trung vị PV1: 16.00 °C
+- Độ lệch chuẩn PV1: 0.1144
+- Giá trị nhỏ nhất PV1: 15.7800 °C
+- Giá trị lớn nhất PV1: 16.3600 °C
 
 ![Hình 18](./Images/pv2.png "Hình 18")
 **Hình 18**
 
-- Nhiệt độ trung bình PV2: 16.1521 °C
-- Trung vị PV2: 16.0445 °C
-- Độ lệch chuẩn PV2: 0.3991
+- Tiến hành phân tích dữ liệu sau giây thứ 190.
+- Nhiệt độ trung bình PV2: 16.0083 °C
+- Trung vị PV2: 16.012 °C
+- Độ lệch chuẩn PV2: 0.1285
+- Giá trị nhỏ nhất PV2: 15.7 °C
+- Giá trị lớn nhất PV2: 16.45 °C
 
 ## Kết luận:
-
-Bộ điều khiển PID kết hợp với truyền thông MQTT đã mang lại hiệu quả vượt trội trong việc điều khiển và giám sát nhiệt độ từ xa. Hệ thống không chỉ duy trì nhiệt độ ổn định với độ chính xác cao, giảm dao động và sai lệch, mà còn tận dụng khả năng truyền tải dữ liệu qua MQTT để giám sát và điều khiển từ xa một cách dễ dàng và linh hoạt.
-
-Việc sử dụng MQTT giúp hệ thống có thể tích hợp vào các giải pháp IoT, cho phép người dùng theo dõi và điều chỉnh nhiệt độ mọi lúc, mọi nơi thông qua mạng internet. Kết hợp với khả năng điều khiển chính xác của PID, hệ thống này rất phù hợp cho các ứng dụng công nghiệp, dân dụng, hoặc các hệ thống tự động hóa thông minh, đảm bảo hiệu quả và tính ổn định cao.
+- Như vậy với việc sử dụng bộ điều khiển PID, sau 190 giây hệ đã duy trì nhiệt độ ở mức 16°C.
+- Bộ điều khiển PID kết hợp với truyền thông MQTT đã mang lại hiệu quả vượt trội trong việc điều khiển và giám sát nhiệt độ từ xa. Hệ thống không chỉ duy trì nhiệt độ ổn định với độ chính xác cao, giảm dao động và sai lệch, mà còn tận dụng khả năng truyền tải dữ liệu qua MQTT để giám sát và điều khiển từ xa một cách dễ dàng và linh hoạt.
+- Việc sử dụng MQTT giúp hệ thống có thể tích hợp vào các giải pháp IoT, cho phép người dùng theo dõi và điều chỉnh nhiệt độ mọi lúc, mọi nơi thông qua mạng internet. Kết hợp với khả năng điều khiển chính xác của PID, hệ thống này rất phù hợp cho các ứng dụng công nghiệp, dân dụng, hoặc các hệ thống tự động hóa thông minh, đảm bảo hiệu quả và tính ổn định cao.
 
 ## Hướng phát triển đề tài:
 
