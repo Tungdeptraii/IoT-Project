@@ -167,10 +167,8 @@ PID mang lại sự cân bằng giữa tốc độ, độ ổn định, và đ�
 - Giao thức MQTT giúp người dùng theo dõi, quản lý và điều khiển hệ thống từ xa thông qua Node-Red Dashboard. Cùng với đó có thể theo dõi các thông tin như setpoint nhiệt độ, độ ẩm thông qua màn hình của thiết bị ESP32_Subcribe. 
 
 
-## Demo Video
+- **Demo video**
 [Watch the Demo Video](https://www.youtube.com/watch?v=3isMr8tyQCo)  
-
-**video 1**
 
 ## Kết quả
 - Hai cảm biến được đo đồng thời, cảm biến 1 (PV1) phục vụ tính toán PID, cảm biến 2 (PV2) khảo sát nhiệt.
@@ -182,15 +180,15 @@ PID mang lại sự cân bằng giữa tốc độ, độ ổn định, và đ�
 ![Hình 17](./Images/pv1.png "Hình 17")
 **Hình 17**
 
-Nhiệt độ trung bình PV1: 16.1430 °C
-Trung vị PV1: 16.0300 °C
-Độ lệch chuẩn PV1: 0.3542
+- Nhiệt độ trung bình PV1: 16.1430 °C
+- Trung vị PV1: 16.0300 °C
+- Độ lệch chuẩn PV1: 0.3542
 
 ![Hình 18](./Images/pv2.png "Hình 18")
 **Hình 18**
-Nhiệt độ trung bình PV2: 16.1521 °C
-Trung vị PV2: 16.0445 °C
-Độ lệch chuẩn PV2: 0.3991
+- Nhiệt độ trung bình PV2: 16.1521 °C
+- Trung vị PV2: 16.0445 °C
+- Độ lệch chuẩn PV2: 0.3991
 
 ## Kết luận:
 
