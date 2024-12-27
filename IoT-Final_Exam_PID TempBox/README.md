@@ -45,12 +45,15 @@ Bộ điều khiển PID (Proportional-Integral-Derivative) là một thuật to
   - Tích lũy sai lệch qua thời gian để loại bỏ sai lệch lâu dài (offset).  
   - Đảm bảo hệ thống đạt được và duy trì giá trị mong muốn chính xác.
   - Thành phần tích phân:
+
   ![Hình 2](./Images/i.png "Hình 2")
 **Hình 2**
 
 - **Thành phần đạo hàm (Derivative - D):**
   - Phản ứng với tốc độ thay đổi của sai lệch để giảm hiện tượng dao động.  
   - Tăng cường độ ổn định của hệ thống.
+  - Thành phần đạo hàm:
+
   ![Hình 3](./Images/d.png "Hình 3")
 **Hình 3**
 
