@@ -10,6 +10,8 @@
   - Là thư mục chứa code chính, bao gồm việc tính toán điều khiển nhiệt độ của hệ và truyền dữ liệu qua UART, truyền thông MQTT.
 - **Thư mục PID TempBox_Sub**: [Link](https://github.com/Tungdeptraii/IoT-Project/tree/main/IoT-Final_Exam_PID%20TempBox/PID%20TempBox_Sub)
   - Là thư mục chứa code ESP32 có nhiệm vụ nhận thông tin nhiệt độ, độ ẩm được Public và hiển thị lên màn hình LCD, giúp người dùng có thể quan sát và theo dõi hoạt động của hệ.
+- **Thư mục NodeRED**: [Link](https://github.com/Tungdeptraii/IoT-Project/tree/main/IoT-Final_Exam_PID%20TempBox/NodeRED)
+  - Thư mục chứa mã của dự án NodeRED.
 - **Thư mục GUI**: [Link](https://github.com/Tungdeptraii/IoT-Project/tree/main/IoT-Final_Exam_PID%20TempBox/GUI)
   - Thư mục chứa app được viết bằng python, truyền nhận dữ liệu thông qua giao tiếp UART.
 - **Thư mục Wireless Connection**: [Link](https://github.com/Tungdeptraii/IoT-Project/tree/main/IoT-Final_Exam_PID%20TempBox/Wireless%20Connection)
@@ -221,8 +223,15 @@ Việc sử dụng MQTT giúp hệ thống có thể tích hợp vào các giả
 - **Kết nối WiFi (Client-Server)**
 
 Dự án này mô phỏng kết nối WiFi giữa hai ESP32 sử dụng mô hình **Client-Server**, trong đó:
-  - ESP32 thứ nhất** hoạt động như một **Access Point (AP)** và phát WiFi.
-  - ESP32 thứ hai** sẽ kết nối vào WiFi mà ESP32 thứ nhất phát và hoạt động như một **Client**.
+  - ESP32 thứ nhất hoạt động như một **Access Point (AP)** và phát WiFi.
+  - ESP32 thứ hai sẽ kết nối vào WiFi mà ESP32 thứ nhất phát và hoạt động như một **Client**.
 
 ![Hình 22](./Images/cs.png "Hình 22")
 **Hình 22**
+
+  - Kết nối điện thoại với WiFi của ESP32 AP và dùng trình duyệt, truy cập vào địa chỉ 192.168.4.1.
+  - Client (điện thoại) gửi yêu cầu HTTP đến Server (ESP32) qua mạng WiFi.
+  - Server (ESP32) nhận và xử lý yêu cầu, rồi trả về phản hồi HTTP.
+
+![Hình 23](./Images/rq.png "Hình 23")
+**Hình 23**
