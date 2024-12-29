@@ -115,8 +115,8 @@ Bộ điều khiển PID được sử dụng rộng rãi trong các lĩnh vực
 
 - Sơ đồ mô hình:
 
-![Hình 10](./Images/mhda.png "Hình 10")
-**Hình 10**
+![Hình 10.1](./Images/mhda.png "Hình 10.1")
+**Hình 10.1**
   - Peltier là một loại linh kiện bán dẫn hoạt động theo hiệu ứng Peltier, dùng dòng điện để tạo ra dòng nhiệt cưỡng bức ở mối nối của hai loại vật liệu khác nhau.
   - Peltier khi sử dụng mặt lạnh thì phần bề mặt nóng cần được tản nhiệt thật tốt nếu không sẽ làm hỏng linh kiện hoặc làm giảm hiệu suất.
   - Quạt số 2 có chức năng tản nhiệt mặt nóng cho Peltier.
@@ -124,8 +124,8 @@ Bộ điều khiển PID được sử dụng rộng rãi trong các lĩnh vực
   - Hai sensor được bố trí lần lượt để làm tín hiệu phản hồi cho bộ điều khiển PID và để khảo sát nhiệt độ của hệ.
 
 - Mô hình thực tế:
-![Hình 10](./Images/mh.png "Hình 10")
-**Hình 10**
+![Hình 10.2](./Images/mh.png "Hình 10.2")
+**Hình 10.2**
 
 - Mạch điện tử:
 
