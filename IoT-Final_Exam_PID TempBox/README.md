@@ -29,7 +29,9 @@
 
 ## Mục tiêu:
 
-Xây dựng một hệ thống điều khiển nhiệt độ sử dụng thuật toán PID. Người dùng có thể đặt ngưỡng nhiệt độ mong muốn để hệ duy trì nhiệt độ. Thông qua giao thức MQTT có thể theo dõi, giám sát và điều chỉnh nhiệt độ cũng như các thông số liên quan. Hệ thống có GUI thông qua giao tiếp UART để quan sát, điều khiển và lưu dữ liệu, phục vụ phân tích và tính toán.
+- Xây dựng một hệ thống điều khiển nhiệt độ sử dụng thuật toán PID. Người dùng có thể đặt ngưỡng nhiệt độ mong muốn để hệ duy trì nhiệt độ.
+- Thông qua giao thức MQTT có thể theo dõi, giám sát và điều chỉnh nhiệt độ cũng như các thông số liên quan. 
+- Hệ thống có GUI sử dụng giao tiếp UART để quan sát, điều khiển và lưu dữ liệu, phục vụ phân tích và tính toán.
 
 ## Tổng quan về bộ điều khiển PID
 
