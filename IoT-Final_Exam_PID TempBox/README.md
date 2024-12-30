@@ -28,7 +28,8 @@
 - Tuy nhiên, thách thức nằm ở việc tích hợp hai công nghệ này để tạo ra một hệ thống vừa ổn định, vừa đáp ứng được các yêu cầu thực tế. Đề tài tập trung vào xây dựng hệ thống ổn định nhiệt độ ứng dụng PID và MQTT, hướng đến một giải pháp thông minh, hiệu quả và linh hoạt.
 
 ## Mục tiêu:
-Xây dựng một hệ thống giúp giám sát nhiệt độ phòng server theo thời gian thực, đưa ra cảnh báo kịp thời khi nhiệt độ vượt quá ngưỡng an toàn, và cho phép điều khiển từ xa thông qua giao thức MQTT.    
+
+Xây dựng một hệ thống điều khiển nhiệt độ sử dụng thuật toán PID. Người dùng có thể đặt ngưỡng nhiệt độ mong muốn để hệ duy trì nhiệt độ. Thông qua giao thức MQTT có thể theo dõi, giám sát và điều chỉnh nhiệt độ cũng như các thông số liên quan. Hệ thống có GUI thông qua giao tiếp UART để quan sát, điều khiển và lưu dữ liệu, phục vụ phân tích và tính toán.
 
 ## Tổng quan về bộ điều khiển PID
 
